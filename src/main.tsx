@@ -6,5 +6,5 @@ import './styles/main.css'
 createRoot(document.getElementById('root') as Container).render(
   <StrictMode>
     <App />
-  </StrictMode>,
+  </StrictMode>
 )

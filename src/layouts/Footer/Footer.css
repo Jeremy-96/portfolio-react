@@ -1,7 +1,6 @@
 footer {
     width: 100vw;
-    height: 30rem;
-    padding: 1rem 3rem;
-    font-size: 2rem;
-    background-color: black;
+    height: 50rem;
+    padding: 2rem 6rem;
+    background-color: var(--color-surface);
 }

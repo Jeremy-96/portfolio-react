@@ -1,11 +1,11 @@
+import { Nav } from '../../components/Nav/Nav';
+import { links } from './Header.conf';
 import './Header.css';
 
 export const Header = () => {
     return (
-        <>
         <header>
-            HEADER
+            <Nav links={links}/>
         </header>
-        </>
     )
 };
