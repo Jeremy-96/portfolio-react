@@ -1,10 +1,14 @@
-import React from 'react'
-import './App.css'
+import { Main } from './layouts/Content/Main';
+import { Footer } from './layouts/Footer/Footer';
+import { Header } from './layouts/Header/Header';
+import './styles/App.css';
 
-export default function App() {
+export const App = () => {
   return (
-    <div>
-      <h1>Welcome to my new portfolio !</h1>
+    <div className="AppWrapper">
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
-}
+};

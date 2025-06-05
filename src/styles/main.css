@@ -1,0 +1,63 @@
+:root {
+  /* Colors settings */
+  --color-bg: #0f1117;
+  --color-surface: #1c1f26;
+  --color-text: #e6e6e6;
+  --color-text-muted: #a0a0a0;
+  --color-accent: #5ccfe6;
+  --color-accent-alt: #ffb86c;
+  --color-error:#ff5555;
+
+  /* Fonts settings */
+  --font-heading: 'Inter', sans-serif;
+  --font-body: 'Fira Code', monospace;
+
+  /* Global basic settings */
+  line-height: 1.5;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  font-size: 10px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  padding: 0 2rem;
+  font-family: var(--font-body);
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+
+    &:visited {
+      color: inherit;
+    }
+}
